@@ -24,12 +24,12 @@ d4 = 0.050;
 %% matlab'ın tam sürüm olması gerekiyor / matlab needs to be the full version
   % [alpha a theta d R/P]
   
- L0 = link([0 0 0 d1 0],'standard');
+ L0 = link[0 0 0 d1 0];
                                    
- L1 = link([pi a1 0 0 0],'standard'); 
- L2 = link([0 a2 0 0 0],'standard');  
- L3 = link([0 0 0 0 1],'standard');   
- L4 = link([0 0 0 d4 0],'standard'); 
+ L1 = link[pi a1 0 0 0]; 
+ L2 = link[0 a2 0 0 0];  
+ L3 = link[0 0 0 0 1];   
+ L4 = link[0 0 0 d4 0]; 
  
 
 BUFFER_SIZE = 21;
